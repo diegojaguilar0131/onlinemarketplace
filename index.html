@@ -3,8 +3,8 @@
   <head>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-1.10.2.js"></script>
-    <script src="js/scipts.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/scripts.js"></script>
     <title>Online Marketplace</title>
   </head>
   <body>
@@ -29,11 +29,21 @@
 
           <div class="form-group">
             <label for="state">State</label>
-            <input id="name" class"form-control" type="text">
+            <input id="state" class"form-control" type="text">
           </div>
 
+          <button type="submit" class="btn">Complete my purchase!</button>
+
         </form>
-      </div>
-    </div>
+
+      </div> <!-- end div blanks -->
+      <div id="receipt">
+        <p>I'm here</p>
+        <p><span class="name"></span></p>
+        <p><span class="address"></span></p>
+        <p><span class="zipcode"></span></p>
+        <p><span class="state"></span></p>
+      </div> <!-- end receipt -->
+    </div> <!-- end container -->
   </body>
 </html>
